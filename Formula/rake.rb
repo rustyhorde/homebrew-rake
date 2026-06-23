@@ -2,12 +2,12 @@ class Rake < Formula
   desc "Configuration-driven build tool that runs Rakefile.toml targets"
   homepage "https://github.com/rustyhorde/cargo-rake"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rustyhorde/cargo-rake/releases/download/v0.1.0/rake-aarch64-apple-darwin.tar.gz"
-      sha256 "5348d78e2ccaa1266855a0e5e67df5e24713515e6a77241066059ab1a24eafac"
+      url "https://github.com/rustyhorde/cargo-rake/releases/download/v0.1.1/rake-aarch64-apple-darwin.tar.gz"
+      sha256 "bef19a7f32241c2f360371ebf6d846f483169844a4462f995320a0c84526a04b"
     end
   end
 
